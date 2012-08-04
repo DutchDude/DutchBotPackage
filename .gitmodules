@@ -1,6 +1,6 @@
 [submodule "DutchBot"]
 	path = DutchBot
-	url = git@githubDD:DutchDude/DutchBot.git
+	url = https://github.com/DutchDude/DutchBot.git
 [submodule "DutchBot-Modules"]
 	path = DutchBot-Modules
-	url = git@githubDD:DutchDude/DutchBot-Modules.git
+	url = https://github.com/DutchDude/DutchBot-Modules.git
