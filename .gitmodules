@@ -1,0 +1,3 @@
+[submodule "DutchBot"]
+	path = DutchBot
+	url = git@githubDD:DutchDude/DutchBot.git
