@@ -1,0 +1,86 @@
+#############
+# LICENSE   #
+#############
+#
+# This file is part of DutchBot.
+#
+# DutchBot is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# DutchBot is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with DutchBot.  If not, see <http://www.gnu.org/licenses/>.
+#
+# copyright © 2012, DutchDude
+# 
+# You are encouraged to send any changes you make to this code to the
+# author. See http://github.com/DutchDude/DutchBot.git
+#
+#############
+# README    #
+#############
+# Syntax:
+#properties are made of dotted words. 
+# you can then type the value after the property name
+# or separate them by a = 
+# eg:
+# example.property 123
+# example.property = 123
+# These are equivalent.
+# Lists are made by separating the values by 
+# COMMAS, not spaces. 
+# example.property foo,bar,baz
+#
+#
+##############
+#SERVER INFOS#
+##############
+server.host irc.what-network.net
+server.port 6667
+server.password 
+irc.nickservpass NickServPass
+irc.nick DutchBot 
+######
+# DB #
+######
+db.host dbhost.nl
+db.database DutchBot
+db.username dutchbot
+db.password foobar
+#############
+#Drone infos#
+#############
+drone.username DutchDude
+drone.password MyVerySekritIrcKey
+drone.channels #joins,#these,#channels
+##############
+#IRC channels#
+##############
+irc.channel.dutchdude.key channelkey
+irc.channel.dutchdude.chanservinvite yes
+irc.channel.dutchdude.modules Quit
+##############
+#moduleconfig#
+##############
+modules.namespace cd.what.DutchBot.Modules
+modules.sudo.password foobar
+#modules.lastfm.apikey xyz
+#modules.lastfm.prefix .
+#modules.lastfm.cooldowntime
+
+#########################
+#globally loaded modules#
+#########################
+bot.globalmodules sudo invite
+#people to complain to
+bot.owner DutchDude
+bot.logchan #DutchDude
+#access list
+acl.channel.dutch = 10
+acl.200779@DutchDude.buildteam.what.cd  100 
